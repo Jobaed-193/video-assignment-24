@@ -1,0 +1,124 @@
+
+.header{
+  background-color: #0e0701;
+}
+.logo{}
+
+.logo a{
+  font-size: 25px;
+display: inline-block;
+text-decoration: none;
+color: white;
+font-weight: bold;
+line-height: 65px;
+}
+.menu{}
+.menu ul{
+  text-align: center;
+}
+.menu ul li{
+  display: inline-block;
+  position: relative;
+}
+.menu ul li a{
+  display: inline-block;
+font-size: 20px;
+padding: 0 15px;
+text-decoration: none;
+color: white;
+line-height: 53px;
+}
+.menu ul li a:hover{
+
+}
+
+/* dropdown menu */
+
+.menu ul li ul{
+  position: absolute;
+  top: 130%;
+  left: 0;
+  width: 200px;
+  background-color: black;
+  padding: 0;
+}
+.menu ul li ul li{
+  display: block;
+  border: none;
+ 
+}
+.menu ul li ul li a{
+  display: block;
+  
+}
+/* hover part */
+.menu ul li ul{
+  opacity: 0;
+  visibility: hidden;
+  transform: scaleY(0);
+  transform-origin: top center;
+  transition: .4s;
+}
+.menu ul li:hover ul{
+  transform: scaleY(1);
+  opacity: 1;
+  visibility: visible;
+}
+.menu ul li ul li a:hover{
+  background-color: rgb(26, 24, 24);
+}
+.banner{
+  background: url(./banner.jpg); 
+  background-position: center;
+background-size: cover;
+padding: 200px 0;
+}
+
+.banner h1{
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.banner p{
+  font-size: 20px;
+font-weight: 600;
+}
+.banner a{
+  color: white;
+font-size: 16px;
+text-decoration: none;
+display: inline-block;
+background-color: black;
+padding: 10px 20px
+}
+
+.service{
+  background-color: #444;
+}
+.service p{
+  font-size: 20px;
+line-height: 40px;
+color: white;
+}
+.service img{
+  width: 200px;
+height: auto;
+}
+.team-section{
+  background-color: #458b83;
+}
+.team-img img{
+  width: 300px;
+height: auto;
+}
+.team-img .icon{
+  font-size: 24px;
+color: black;
+}
+.team-img span{}
+.team-text h1{
+  font-size: 45px;
+  color: white;
+}
+.{}
+.{}
